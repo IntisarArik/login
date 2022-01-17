@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(81, 26, 145);
+  background: linear-gradient(
+    219deg,
+    rgba(81, 26, 145, 1) 0%,
+    rgba(81, 26, 145, 1) 51%,
+    rgba(157, 44, 124, 1) 100%
+  );
+}
+
+.container {
+  padding: 7rem 0;
+}
+
+.form-login {
+  display: flex;
+  flex-flow: nowrap column;
+  vertical-align: center;
+}
+
+/* Card Section */
+.card-title {
+  color: #5b1c8e;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1rem;
+}
+
+.card {
+  display: table;
+  box-sizing: border-box;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 18px;
+  background: white;
+}
+
+.card-wrapper {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+/* Input */
+
+.form-control {
+  padding: 9px 0 9px 15px;
+  font-size: 16px;
+  border-width: 0px;
+  border-color: #5b1c8e;
+  background-color: #5b1c8e;
+  color: white;
+  border-style: solid;
+  border-radius: 22px;
+  margin: 0.25rem;
+}
+
+.form-control::placeholder {
+  color: white;
+  font-style: italic;
+}
+
+.form-control:focus {
+  outline: none;
+  border-color: #5b1c8e;
+  background-color: #5b1c8e;
+  color: white;
+  box-shadow: #9d2c7c;
+}
+
+/* card footer */
+
+.card-footer {
+  background-color: white;
+  border: none;
+  padding: 0 10px;
+}
+
+.caption {
+  color: #5b1c8e;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 5px;
+}
+
+/* .checkmark input[type="checkbox"]:checked {
+  background-color: #5b1c8e;
+  color: #5b1c8e;
+} */
+
+.forgot-pass {
+  text-decoration: none;
+  color: #5b1c8e;
+  font-family: "Montserrat", sans-serif;
+}
+
+.forgot-pass:hover {
+  color: #9d2c7c;
+}
+
+/* Button */
+
+.btn {
+  -webkit-border-radius: 22;
+  -moz-border-radius: 22;
+  border-radius: 22px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 18px;
+  background: #5b1c8e;
+  border: none;
+  text-decoration: none;
+  margin: 0 25%;
+}
+
+.btn:hover {
+  background: #9d2c7c;
+  text-decoration: none;
+}
+
+/* Sign Up */
+
+.sign-up a {
+  text-decoration: none;
+  color: #5b1c8e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.sign-up a:hover {
+  color: #9d2c7c;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 0;
+  }
+
+  .card-title {
+    padding-top: 1rem;
+  }
+
+  .img-login {
+    width: 100%;
+  }
+
+  .img-container {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+  }
+}
